@@ -1,0 +1,7 @@
+version: '2'
+
+services: 
+  go:
+    image: goora:latest
+    volumes:
+    - .:/goora
