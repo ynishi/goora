@@ -4,4 +4,8 @@ services:
   go:
     image: goora:latest
     volumes:
-    - .:/goora
+      - ./12.2/golang1.10stretch:/goora
+  godev:
+    image: goora-dev:latest
+    volumes:
+      - ./12.2/deisgodev:/goora
