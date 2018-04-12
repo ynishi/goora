@@ -4,7 +4,7 @@
 * not included oracle client package, please get these under licence of agreement of Oracle.
 
 ## usage
-* set oracle client package rpm under package dir.
+* set oracle client package rpm under ${version}/${variant}/package dir.
   * ex. http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html?ssSourceSiteId=otnjp
 * `make` 
 * run docker
